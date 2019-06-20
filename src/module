@@ -1,0 +1,19 @@
+read -p "Yakin Mau Keluar?? y/t : " out
+if [ $out = "y" ]
+then
+clear
+echo "╔═╗───╔╗╔╗─────╔╗  ╔══╗──────────  ╔══╗─────────╔═╗
+║╦╝╔╦╗╠╣║╚╗╔═╗╔╝║  ║═╦╝╔╦╗╔═╗╔══╗  ╚╗╔╝╔═╗╔═╗╔╗─║═╣
+║╩╗╠║╣║║║╔╣║╩╣║╬║  ║╔╝─║╔╝║╬║║║║║  ─║║─║╬║║╬║║╚╗╠═║
+╚═╝╚╩╝╚╝╚═╝╚═╝╚═╝  ╚╝──╚╝─╚═╝╚╩╩╝  ─╚╝─╚═╝╚═╝╚═╝╚═╝
+─────────────────  ──────────────  ────────────────" | lolcat
+echo "Terima Kasih Telah Menggunakan Tools Saya :)" | lolcat
+echo "Jangan Lupa Share Tools Ini Ke Teman² Kalian Ya" | lolcat
+echo "Always Stay In My Tool, Ok :)" | lolcat
+exit
+elif [ $out = "t" ]
+then
+echo "Tool Akan Kembali Ke Menu Awal Dalam Beberapa Detik"
+sleep 5
+sh xNot_Found.sh
+fi
